@@ -1,0 +1,9 @@
+div {
+    text-align: center;
+}
+
+.form-rounded {
+    border-radius: 1rem;
+    padding: 10px 10px 10px 10px;
+    width: 582px;
+}
