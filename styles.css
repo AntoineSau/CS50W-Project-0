@@ -7,6 +7,7 @@ body {
 
 div {
     padding: 10px;
+    display: block;
 }
 
 .topnav-right {
@@ -86,4 +87,136 @@ input:focus, textarea:focus, select:focus {
 
 .language {
     font-size: small;
+}
+
+.title-advanced{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    text-align: left;
+    padding: 0px;
+}s
+
+.page-advanced {
+    text-align: left;
+    padding: 0px;
+    margin: 25px 35px;
+}
+
+.separation {
+    border-bottom: 1px solid #ebebeb;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    clear: both;
+    vertical-align: middle;
+    height: 42px;
+    padding: 0px;
+}
+
+#item1 {
+    float: left;
+    width: 16%;
+    font-size: 13px;
+    padding: 0px;
+    box-shadow: none;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+#item1var {
+    float: left;
+    width: 16%;
+    font-size: 16px;
+    padding: 0px;
+    box-shadow: none;
+    vertical-align: middle;
+}
+
+#item2 {
+    float: left;
+    width: 50%;
+    font-size: 16px;
+    padding: 0px;
+    box-shadow: none;
+    vertical-align: middle;
+    padding-right: 16px;
+}
+
+#item3 {
+    float: left;
+    width: 32%;
+    font-size: 16px;
+    padding: 0px;
+    box-shadow: none;
+    vertical-align: middle;
+    font-size: 11px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+#item3var { 
+    float: left;
+    width: 32%;
+    font-size: 13px;
+    padding: 0px;
+    color: #777;
+    box-shadow: none;
+    vertical-align: middle;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+#item4 {
+    float: left;
+    width: 32%;
+    font-size: 16px;
+    padding: 0px;
+    box-shadow: none;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.quote {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}
+
+.wide {
+    width: 100%;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+}
+
+.advanced-search-button {
+    background-color: #4d90fe;
+    border-radius: 2px;
+    border: 1px solid #3079ed;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    white-space: nowrap;
+    height: 27px;
+    padding: 0 12px;
+    text-align: center;
+}
+
+.advanced-div-main {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40 px 2% 0 44px;
+    align-items: left;
+    text-align: left;
 }
