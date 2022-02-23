@@ -6,9 +6,9 @@ body {
 }
 
 div {
-    padding: 10px;
     display: block;
 }
+
 
 .topnav-right {
     display: flex;
@@ -16,7 +16,8 @@ div {
     justify-content: flex-end;
     font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
     color: black;
-    height: 60px;
+    height: 48px;
+    padding: 0 4 px;
     margin-right: 48px;
 }
 
@@ -146,6 +147,16 @@ input:focus, textarea:focus, select:focus {
     padding-right: 16px;
 }
 
+#item2var {
+    float: left;
+    width: 50%;
+    font-size: 16px;
+    padding: 0px;
+    box-shadow: none;
+    vertical-align: middle;
+    
+}
+
 #item3 {
     float: left;
     width: 32%;
@@ -197,6 +208,33 @@ input:focus, textarea:focus, select:focus {
     border-top: 1px solid #c0c0c0;
     font-size: 13px;
     height: 25px;
+    
+}
+
+.wide:focus {
+    width: 100%;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    outline: none;
+    box-shadow: 0 0 0 1px hsl(213, 90%, 70%);
+}
+
+.wide:hover {
+    width: 100%;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    outline: blue;
+    outline-color: blue;
 }
 
 .advanced-search-button {
@@ -216,7 +254,7 @@ input:focus, textarea:focus, select:focus {
     max-width: 1140px;
     min-width: 200px;
     width: 96%;
-    margin: 40 px 2% 0 44px;
+    margin: 40px 2% 0 44px;
     align-items: left;
     text-align: left;
 }
